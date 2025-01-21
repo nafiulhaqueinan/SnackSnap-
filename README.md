@@ -1,28 +1,40 @@
-# SnackSnap 🍔🍕🥤
+# SnackSnap
 
-SnackSnap is an intuitive and user-friendly online snack ordering system. Whether you're craving delicious dishes or managing restaurants, SnackSnap simplifies the process for users and administrators alike.
+SnackSnap is a dynamic and easy-to-use online snack ordering system that connects customers with a wide variety of dishes and restaurants at the click of a button. Designed to be intuitive, SnackSnap ensures a seamless ordering experience from browsing to checkout.
 
----
+## Features
 
-## Features 🚀
-- **User Authentication**: Secure login, registration, and logout functionalities.
-- **Browse Dishes and Restaurants**: Explore a variety of menus and eateries.
-- **Order Management**: Add items to your cart, proceed to checkout, and track orders.
-- **Admin Panel**: Manage restaurants, dishes, and user orders with ease.
-- **Dynamic Interactions**: Real-time updates with Ajax and interactive UI elements.
-- **Responsive Design**: Works seamlessly across devices.
+- **User Authentication**: Secure user login and registration system.
+- **Browse and Order**: Users can explore dishes and restaurants, and place orders effortlessly.
+- **Admin Dashboard**: An administrative interface for managing the system, including dishes, restaurants, and user orders.
+- **Dynamic Updates**: Real-time updates using Ajax for a smooth user experience.
+- **Responsive Design**: Fully responsive web design compatible with all devices.
 
----
+## Built With
 
-## Tech Stack 💻
-- **Frontend**: HTML, CSS, SCSS, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL
-- **Libraries/Frameworks**:
-  - jQuery
-  - Mapbox (for location-based services)
-  - Bootstrap (for responsive design)
+- HTML5
+- CSS3
+- SCSS
+- JavaScript (with Ajax)
+- PHP
+- MySQL
 
----
+## Getting Started
 
-## Folder Structure 📂
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software:
+
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- Apache server (XAMPP, WAMP, or similar)
+
+### Installing
+
+A step by step series of examples that tell you how to get a development environment running:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nafiulhaqueinan/SnackSnap.git
