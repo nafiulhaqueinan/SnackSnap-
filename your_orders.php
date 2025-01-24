@@ -136,7 +136,7 @@ if (empty($_SESSION['user_id'])) {
                                                 <td data-column="Quantity">
                                                     <?php echo $row['quantity']; ?></td>
                                                 <td data-column="price">Tk<?php echo $row['price']; ?></td>
-                                                <td data-column="status">
+                                                <td data-column="status"> 
                                                     <?php
                                                                             $status = $row['status'];
             if ('' == $status or 'NULL' == $status) {
@@ -170,7 +170,7 @@ if (empty($_SESSION['user_id'])) {
                                                         </td>
                                                         <td data-column="Date">
                                                             <?php echo $row['date']; ?></td>
-                                                        <td data-column="Action">
+                                                        <td data-column="Action"> <?php echo $row['Cancle']; ?>
                                                             <a href="delete_orders.php?order_del=<?php echo $row['o_id']; ?>" onclick="return confirm('Are you sure you want to cancel your order?');" class="btn btn-danger btn-flat btn-addon btn-xs m-b-10">
                                                                 <i class="fa fa-trash-o" style="font-size:16px"></i>
                                                             </a>
@@ -205,8 +205,8 @@ if (empty($_SESSION['user_id'])) {
                         </div>
                         <div class="col-xs-12 col-sm-4 address color-gray">
                             <h5>Address</h5>
-                            <p>1086 Stockert Hollow Road, Seattle</p>
-                            <h5>Phone: 75696969855</a>
+                            <p>61/kuratoli, AIUB</p>
+                            <h5>Phone: 01711223344</a>
                         </h5>
                     </div>
                     <div class="col-xs-12 col-sm-5 additional-info color-gray">

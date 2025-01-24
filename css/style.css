@@ -964,7 +964,7 @@ How it works section
 -----------------------------------*/
 
 .how-it-works {
-  background-image: url(../images/city.png), url(../images/pattern.png);
+  background-image: url(../images/22.jpg);
   background-repeat: repeat-x, repeat;
   background-position: bottom, center;
   padding: 90px 0;
@@ -1522,7 +1522,7 @@ footer li a {
 }
 
 .profile p {
-  color: #fff;
+  color: #070707;
 }
 
 .banner figure {
@@ -1532,7 +1532,7 @@ footer li a {
 .profile-desc h6 a {
   font-size: 26px;
   line-height: 31px;
-  color: #fff;
+  color: #050505;
 }
 
 .profile .right-text {
